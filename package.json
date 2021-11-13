@@ -1,7 +1,7 @@
 {
   "name": "@miizzo/effector-router",
   "version": "0.0.3",
-  "description": "routing your web application with effector",
+  "description": "route your web application with effector",
   "type": "module",
   "source": "src/index.ts",
   "main": "./dist/index.cjs",
