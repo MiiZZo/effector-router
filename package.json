@@ -1,0 +1,38 @@
+{
+  "name": "@miizzo/effector-router",
+  "version": "0.0.1",
+  "description": "routing your web application with effector",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiiZZo/effector-router.git"
+  },
+  "keywords": [
+    "effector",
+    "routing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiiZZo/effector-router/issues"
+  },
+  "homepage": "https://github.com/MiiZZo/effector-router#readme",
+  "devDependencies": {
+    "effector": "^22.1.2",
+    "history": "^5.1.0",
+    "microbundle": "^0.14.1"
+  },
+  "peerDependencies": {
+    "effector": "^22.1.2",
+    "history": "^5.1.0"
+  },
+  "packageManager": "yarn@3.1.0"
+}
