@@ -15,10 +15,15 @@ jobs:
         with:
           node-version: 17
           registry-url: https://registry.npmjs.org
+      - name: Install Yarn
+        run: npm install -g yarn
       - name: Install deps
         run: yarn install --frozen-lockfile
       - name: Building
         run: yarn build
+      - name: Uninstall Yarn
+        if: always()
+        run: npm uninstall -g yarn
       - name: 🚀 publish
         run: npm publish --access public
         env:
