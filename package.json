@@ -1,13 +1,15 @@
 {
   "name": "@miizzo/effector-router",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "route your web application with effector",
   "type": "module",
   "source": "src/index.ts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
