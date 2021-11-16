@@ -1,6 +1,6 @@
 {
   "name": "@miizzo/effector-router",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "route your web application with effector",
   "type": "module",
   "source": "src/index.ts",
