@@ -33,6 +33,5 @@
   "peerDependencies": {
     "effector": "^22.1.2",
     "history": "^5.1.0"
-  },
-  "packageManager": "yarn@3.1.0"
+  }
 }
